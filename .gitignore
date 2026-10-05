@@ -1,0 +1,10 @@
+**/node_modules/
+**/build/
+**/dist/
+**/target/
+**/.settings/
+**/.classpath
+**/.project
+**/.idea/
+**/.vscode/
+**/.DS_Store
