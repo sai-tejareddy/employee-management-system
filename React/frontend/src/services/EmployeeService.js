@@ -1,5 +1,5 @@
 import axios from 'axios';
-const EMPLOYEE_API = "http://localhost:9191/api/v1/employees";
+const EMPLOYEE_API = process.env.REACT_APP_API_URL || "http://localhost:9191/api/v1/employees";
 
 class EmployeeService
 {
